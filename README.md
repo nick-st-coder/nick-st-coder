@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Nikita
-- 👀 I’m interested in SQL, Python programing.
-- 🌱 And I’m currently learning SQL, SQLAlchemy, Python and working on some projects to test my skills.
-
+- 👋 Hi, I’m Nick
+- 👀 I’m interested in DS, ML and stuff like that.
+- 🌱 I'm learning scikit-learn rn
+- What's better TenserFlow or PyTorch?
