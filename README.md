@@ -1,8 +1,8 @@
-# Hi, I'm Nick 👋
+# Hi, I'm Nick
 
-**Data Science & Machine Learning** — I build end-to-end ML solutions: from exploratory analysis and feature engineering to model training, experiment tracking, and serving models behind real APIs.
+**Data Science & ML** — I build end-to-end ML solutions: from exploratory analysis and feature engineering to model training, experiment tracking, and serving models behind real APIs.
 
-I'm currently a computer programming student focused on **Data Science**, and I use GitHub to document projects the way they'd be done in industry — with clean code, honest validation, and measurable business impact.
+I'm currently a computer programming student looking for **Data Science Internship**, and I use GitHub to document projects the way they'd be done in industry — with clean code, honest validation, and measurable business impact.
 
 ---
 
@@ -46,13 +46,6 @@ Segment customers of a UK online gift-ware retailer into actionable groups using
 | **MLOps** | MLflow, Docker |
 | **Backend / Serving** | FastAPI, Gradio |
 | **Tooling** | Git, uv, Jupyter |
-
----
-
-## 📚 Currently
-
-- Building ML projects end-to-end and improving my ML engineering skills
-- Focused on writing production-quality code: testing, reproducibility, and clean project structure
 
 ---
 
