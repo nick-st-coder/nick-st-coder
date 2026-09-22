@@ -8,6 +8,14 @@ I'm currently a computer programming student looking for **Data Science Internsh
 
 ## 🚀 Featured Projects
 
+### [Customer Churn Prediction](https://github.com/nick-st-coder/churn-customer)
+Predict whether a telecom customer will churn, so companies can run targeted retention campaigns instead of spending blindly.
+
+- **LightGBM** with a custom decision threshold (0.36) tuned for the precision–recall trade-off — false negatives are the expensive error here
+- Model catches **91% of actual churners**; business scenario shows an estimated **$20.5M net annual savings** on a 1M-customer base
+- Full pipeline: EDA → feature engineering (VIF analysis, one-hot encoding) → modeling → **MLflow** tracking → **FastAPI + Gradio** serving → **Docker** (image optimized from 4GB → 2.5GB)
+- Includes **unit tests** for the API and inference preprocessing
+
 ### [Rossmann Store Sales Forecasting](https://github.com/nick-st-coder/rossmann)
 Forecast daily sales for **1,115 Rossmann drugstores** across Germany so managers can plan staffing, deliveries, and promotions ahead of time.
 
@@ -16,14 +24,6 @@ Forecast daily sales for **1,115 Rossmann drugstores** across Germany so manager
 - Removed target leakage (`Customers` feature correlated ~0.90–0.996 with `Sales`)
 - **Final RMSLE: 0.116** on held-out test data — the negative train/test gap confirms no overfitting
 - Served via **FastAPI + Gradio**, containerized with **Docker**, tracked with **MLflow**
-
-### [Customer Churn Prediction](https://github.com/nick-st-coder/churn-customer)
-Predict whether a telecom customer will churn, so companies can run targeted retention campaigns instead of spending blindly.
-
-- **LightGBM** with a custom decision threshold (0.36) tuned for the precision–recall trade-off — false negatives are the expensive error here
-- Model catches **91% of actual churners**; business scenario shows an estimated **$20.5M net annual savings** on a 1M-customer base
-- Full pipeline: EDA → feature engineering (VIF analysis, one-hot encoding) → modeling → **MLflow** tracking → **FastAPI + Gradio** serving → **Docker** (image optimized from 4GB → 2.5GB)
-- Includes **unit tests** for the API and inference preprocessing
 
 ### [Online Retail Customer Segmentation](https://github.com/nick-st-coder/online-resail)
 Segment customers of a UK online gift-ware retailer into actionable groups using unsupervised learning, so the business can target retention and marketing where it matters.
@@ -52,8 +52,3 @@ Segment customers of a UK online gift-ware retailer into actionable groups using
 ## 📫 Let's Connect
 
 - [LinkedIn](https://www.linkedin.com/in/nikita-babukh-3a47a33a9/) · [Portfolio](https://your-portfolio.com) · [Email](babukhnikita@gmail.com)
-
----
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=nick-st-coder&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nick-st-coder&layout=compact)
