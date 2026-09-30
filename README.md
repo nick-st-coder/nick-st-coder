@@ -51,4 +51,4 @@ Segment customers of a UK online gift-ware retailer into actionable groups using
 
 ## 📫 Let's Connect
 
-- [LinkedIn](https://www.linkedin.com/in/nikita-babukh-3a47a33a9/) · [Portfolio](https://your-portfolio.com) · [Email](babukhnikita@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/nikita-babukh-3a47a33a9/) · [Portfolio](https://your-portfolio.com) · [Email](mailto:babukhnikita@gmail.com)
