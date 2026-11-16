@@ -6,7 +6,7 @@ I'm currently a computer programming student looking for **Data Science Internsh
 
 ---
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 ### [Olist E-commerce Intelligence Platform](https://github.com/nick-st-coder/olist-intelligence)
 An end-to-end data platform on the Brazilian E-Commerce Public Dataset by Olist (~100k orders, 2016–2018, 9 relational CSVs): ingestion → warehouse → BI → delivery-delay prediction → deployment → monitoring. Built local-first (Docker Compose, PostgreSQL, Airflow) with GCP as an optional target.
@@ -47,7 +47,7 @@ Segment customers of a UK online gift-ware retailer into actionable groups using
 
 ---
 
-## 🛠️ Skills
+##  Skills
 
 | Category | Tools |
 |---|---|
