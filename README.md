@@ -8,6 +8,16 @@ I'm currently a computer programming student looking for **Data Science Internsh
 
 ## 🚀 Featured Projects
 
+### [Olist E-commerce Intelligence Platform](https://github.com/nick-st-coder/olist-intelligence)
+An end-to-end data platform on the Brazilian E-Commerce Public Dataset by Olist (~100k orders, 2016–2018, 9 relational CSVs): ingestion → warehouse → BI → delivery-delay prediction → deployment → monitoring. Built local-first (Docker Compose, PostgreSQL, Airflow) with GCP as an optional target.
+
+- **Data warehouse**: raw CSVs loaded into Postgres, transformed by **dbt** into a star schema (21 models, 90 tests) — with a **BigQuery** target sharing the same SQL, and a reconciliation step proving both warehouses produce identical figures (99,441 rows, 8.11% late rate)
+- **Delivery-delay model**: predicts whether an order arrives later than promised, using **chronological splits only** (no leakage) and a leakage-safe seller-history feature built on a completion timeline
+- **Logistic regression wins** over LightGBM/XGBoost — the signal is close to additive; **isotonic calibration** restores honest probabilities and a **cost-based threshold** (missed late order = 10× a false alarm) drives the decision
+- **Money impact**: cuts the cost of late delivery by **~29% on validation** (≈ R$0.97 per order at R$50 per missed late order); SHAP shows lead time, geography, and seller record drive predictions
+- **Serving & monitoring**: **FastAPI** (4 endpoints, refuses post-purchase fields, per-order SHAP explanations) + **Streamlit** UI, **Evidently** drift/performance replay, **MLflow** tracking, **Airflow** orchestration, **Power BI** report, and **CI** (lint, tests, dbt parse, Docker builds)
+- Honest limitations documented: the label measures a promise (not delivery time), and the static dataset means monitoring is explicitly simulated
+
 ### [Customer Churn Prediction](https://github.com/nick-st-coder/churn-customer)
 Predict whether a telecom customer will churn, so companies can run targeted retention campaigns instead of spending blindly.
 
@@ -42,10 +52,12 @@ Segment customers of a UK online gift-ware retailer into actionable groups using
 | Category | Tools |
 |---|---|
 | **Languages** | Python, SQL |
-| **Data & ML** | pandas, NumPy, scikit-learn, LightGBM, XGBoost, matplotlib, seaborn |
-| **MLOps** | MLflow, Docker |
-| **Backend / Serving** | FastAPI, Gradio |
-| **Tooling** | Git, uv, Jupyter |
+| **Data & ML** | pandas, NumPy, scikit-learn, LightGBM, XGBoost, Optuna, SHAP, matplotlib, seaborn |
+| **Data Engineering** | dbt, PostgreSQL, BigQuery, Airflow, Pandera |
+| **MLOps** | MLflow, Evidently, Docker, GitHub Actions |
+| **Backend / Serving** | FastAPI, Gradio, Streamlit |
+| **BI** | Power BI, Power Query, DAX |
+| **Tooling** | Git, uv, ruff, Jupyter |
 
 ---
 
